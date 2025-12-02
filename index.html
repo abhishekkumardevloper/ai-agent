@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Course Helper AI Agent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1>📚 Course Helper AI</h1>
+        <p>Ask any course-related question and get a clear explanation.</p>
+      </header>
+
+      <main class="chat-container" id="chat-container"></main>
+
+      <form id="chat-form" class="chat-input-area">
+        <textarea
+          id="user-input"
+          rows="2"
+          placeholder="Ask your question... (e.g., Explain OS deadlock, What is OOP, etc.)"
+          required
+        ></textarea>
+        <button type="submit" id="send-btn">Send</button>
+      </form>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
